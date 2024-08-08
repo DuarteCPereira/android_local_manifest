@@ -4,13 +4,13 @@
   <remote name="mainScopeGithub" fetch="https://github.com/DuarteCPereira/" />
 
   <!-- Raspberry Pi -->
-  <project path="device/brcm/rpi4" name="android_device_brcm_rpi4" remote="mainScopeGithub" revision="android-14.0" >
+  <project path="device/brcm/rpi4" name="android_device_brcm_rpi4" remote="mainScopeGithub" revision="android-14.0-portrait" >
     <linkfile src="mkimg.sh" dest="rpi4-mkimg.sh" />
   </project>
   <project path="device/brcm/rpi5" name="android_device_brcm_rpi5" remote="raspberryVanillaGithub" revision="android-14.0" >
     <linkfile src="mkimg.sh" dest="rpi5-mkimg.sh" />
   </project>
-  <project path="device/brcm/rpi4-kernel" name="android_device_brcm_rpi4-kernel" remote="raspberryVanillaGithub" revision="android-14.0-portrait" />
+  <project path="device/brcm/rpi4-kernel" name="android_device_brcm_rpi4-kernel" remote="raspberryVanillaGithub" revision="android-14.0" />
   <project path="device/brcm/rpi5-kernel" name="android_device_brcm_rpi5-kernel" remote="raspberryVanillaGithub" revision="android-14.0" />
   <project path="vendor/brcm" name="proprietary_vendor_brcm" remote="raspberryVanillaGithub" revision="android-14.0" />
 
